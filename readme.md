@@ -1,10 +1,10 @@
 # File strucutre
 
-- `/src/gui/` Contains code related to the software GUI.
-- `/src/state/` Contaions code related to state management system.
-- `/src/tests/` Contains testing code and test files.
-- `/src/data_processing/` Contains code related to the analysis pipeline including analysis calculations and file creation.
-- Additionally, `/src/output` and `/src/saved_runs` are used to store persistent data and may or may not exist depending on when the software is run.
+- `gui/` Contains code related to the software GUI.
+- `state/` Contaions code related to state management system.
+- `tests/` Contains testing code and test files.
+- `data_processing/` Contains code related to the analysis pipeline including analysis calculations and file creation.
+- Additionally, `output/` and `saved_runs/` are used to store persistent data and may or may not exist depending on when the software is run.
 
 # Installation
 
@@ -25,7 +25,6 @@ pip install -r requirements.txt
 4. Run:
 
 ```bash
-cd src
 python main.py
 ```
 
@@ -40,7 +39,6 @@ python main.py
 ### To Compile Locally
 
 - `pip install pyinstaller`
-- `cd src`
 - `pyinstaller -D main.spec`
 - Compiled directory found at `/dist/main`. Run via `main.exe`.
 
