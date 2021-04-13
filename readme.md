@@ -42,7 +42,6 @@ python main.py
 - `pyinstaller -D main.spec`
 - Compiled directory found at `/dist/main`. Run via `main.exe`.
 
-## Test steps
+## Running Tests
 
-- `cd src`
 - `python -m unittest discover -p test_unit*`
